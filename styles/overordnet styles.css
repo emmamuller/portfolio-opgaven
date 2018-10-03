@@ -4,3 +4,118 @@
 body {
 	font-family: 'Roboto', sans-serif;
 }
+.menu {
+	list-style-type: none;
+}
+.menu li {
+	display: inline;
+	float: right;
+	padding: 0 10px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: black;
+}
+
+.mit-navn {
+	float: left;
+	margin: 0;
+}
+#wrapper {
+	width: 80%;
+	margin: auto;
+	
+}
+h1 {
+	clear:both;
+	padding-top: 70px;
+	text-align: left;
+	margin-bottom: 5px;
+}
+.h1-center {
+	text-align: center;
+}
+h2, h3 {
+	text-align: left;
+	margin-top: 5px;
+}
+
+.billedstr {
+	width: 31%;
+	height: 30%;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+.sidste-billede {
+	display: block;
+}
+.activ {
+	text-decoration: underline;
+}
+.normal {
+	font-weight: normal;
+	
+}
+.center {
+	margin: auto;
+}
+.left {
+	text-align: left;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	clear: both;
+}
+.container .left {
+	width: 70%;
+	
+}
+.container .right {
+	width: 30%;
+	padding-top: 70px;
+}
+.container .right img {
+	width: 100%;
+}
+.mig {
+	width: 100px;
+	margin-right: 10%;
+	padding: 20px;
+}
+.cv {
+	margin-left: 25%;
+	
+}
+.cv:hover {
+	color: #9B9B9B;
+}
+form {
+	width: 25vw;
+	margin: 10px auto;
+	border: 1px solid black;
+	padding: 20px;
+}
+.overskrift:hover {
+	color: #9B9B9B;
+}
+.haven:hover {
+	color: #6BCD7E;
+}
+.broprojekt:hover {
+	color: #E7A52E;
+}
+.blaaverden:hover {
+	color: #3697E4;
+}
+.ommig:hover {
+	color: #9B9B9B;
+}
+.kontakt:hover {
+	color: #9B9B9B;
+}
+.h4-center {
+	text-align: center;
+}
