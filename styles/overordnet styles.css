@@ -95,8 +95,9 @@ h2, h3 {
 form {
 	width: 25vw;
 	margin: 10px auto;
-	border: 1px solid black;
+	border: 1px solid #ddd;
 	padding: 20px;
+	
 }
 .overskrift:hover {
 	color: #9B9B9B;
@@ -118,4 +119,18 @@ form {
 }
 .h4-center {
 	text-align: center;
+}
+.kontakt-container {
+	display: flex;
+	justify-content: space-around;
+}
+.tekst-kontakt {
+	width: 35%;
+	
+}
+.formular {
+	width: 55%;
+	margin-top: 15%;
+	margin-left: 12%;
+	
 }
